@@ -1,0 +1,72 @@
+.recommendations {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.recommendations h3 {
+  font-size: 1.8rem;
+  color: #2e8b57;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.recommendations ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.recommendations ul li {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recommendations ul li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recommendations ul li strong {
+  color: #555555;
+  font-weight: 600;
+}
+
+.recommendations ul li span {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.recommendations ul li .category {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  margin-top: 0.5rem;
+  background-color: #4caf50;
+  color: white;
+  font-size: 0.85rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .recommendations {
+    padding: 1.5rem;
+  }
+
+  .recommendations h3 {
+    font-size: 1.6rem;
+  }
+
+  .recommendations ul li {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}

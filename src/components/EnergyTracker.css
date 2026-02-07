@@ -1,0 +1,83 @@
+.energy-tracker {
+  background: #d1f7c3;
+  border: 1px solid #86dc77;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  width: 1400px;
+}
+
+.tracker-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.history-table {
+  flex: 1;
+  min-width: 300px;
+  color: #111611;
+}
+
+.history-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table th, .history-table td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #0b0c0b;
+}
+
+.history-table th {
+  background: #4caf50;
+  color: rgb(231, 243, 222);
+}
+
+.predict-section {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.input-group {
+  margin-top: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #111210;
+  border-radius: 5px;
+}
+
+.input-group button {
+  margin-top: 10px;
+  background: #4caf50;
+  color: rgb(17, 13, 13);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background: #388e3c;
+}
+
+.feedback {
+  margin-top: 15px;
+  background: #7bde84;
+  border: 1px solid #0c0e0c;
+  padding: 10px;
+  border-radius: 5px;
+  color: #bedec0;
+}
+
+.graph-section {
+  color: #388e3c;
+  margin-top: 20px;
+}

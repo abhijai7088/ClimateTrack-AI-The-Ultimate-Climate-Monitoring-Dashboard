@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Climate Widget Container */
+.climate-widget {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Info Section */
+.info {
+  text-align: left;
+  padding: 15px 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  line-height: 1.6;
+}
+
+.info p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.info p strong {
+  font-weight: bold;
+  color: #ffda79;
+}
+
+/* Loading and Error States */
+.loading,
+.error {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 50px;
+  color: #ff4f4f;
+}
+
+/* Lottie Animation */
+.lottie-animation {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .climate-widget {
+    padding: 15px;
+  }
+
+  .header h2 {
+    font-size: 1.5rem;
+  }
+
+  .info p {
+    font-size: 0.9rem;
+  }
+}

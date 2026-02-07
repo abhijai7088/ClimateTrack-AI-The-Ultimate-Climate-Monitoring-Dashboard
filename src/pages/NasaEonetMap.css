@@ -1,0 +1,103 @@
+/* Style for the map container */
+#map {
+  height: 500px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.strong {
+  color: #100a0a;
+}
+/* Styling for the info box (category selector) */
+.info-box {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(36, 30, 30, 0.95);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+  width: 250px;
+}
+
+.info-box h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+#category-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #100a0a;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Loading indicator */
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.95);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  font-size: 16px;
+  font-weight: bold;
+  display: none;
+  text-align: center;
+}
+
+/* Styling for the legend */
+.legend {
+  position: middle;
+  bottom: 0px;
+  left: 20px;
+  background: rgba(19, 15, 15, 0.95);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(35, 30, 30, 0.2);
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.legend strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #faf0f0;
+}
+
+.legend div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend div span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+Scale bar styling
+.leaflet-control-scale {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background: rgba(171, 108, 108, 0.95);
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}

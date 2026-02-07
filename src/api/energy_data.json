@@ -1,0 +1,12 @@
+{
+  "records": [
+    { "date": "2024-12-01", "electricity": 350, "renewables": 25, "cost": 50 },
+    { "date": "2024-11-01", "electricity": 400, "renewables": 30, "cost": 55 },
+    { "date": "2024-10-01", "electricity": 320, "renewables": 20, "cost": 48 },
+    { "date": "2024-09-01", "electricity": 380, "renewables": 35, "cost": 60 },
+    { "date": "2024-08-01", "electricity": 300, "renewables": 40, "cost": 45 },
+    { "date": "2024-07-01", "electricity": 450, "renewables": 15, "cost": 65 },
+    { "date": "2024-06-01", "electricity": 330, "renewables": 25, "cost": 50 },
+    { "date": "2024-05-01", "electricity": 360, "renewables": 28, "cost": 52 }
+  ]
+}

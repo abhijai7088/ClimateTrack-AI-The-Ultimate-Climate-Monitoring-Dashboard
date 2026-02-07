@@ -1,0 +1,44 @@
+{
+  "tips": [
+    {
+      "icon": "🌍",
+      "title": "Reduce Carbon Footprint",
+      "description": "Carpool, use public transport, or switch to bicycles to reduce carbon emissions."
+    },
+    {
+      "icon": "💧",
+      "title": "Save Water",
+      "description": "Turn off taps when not in use and fix leaks to conserve water."
+    },
+    {
+      "icon": "🔋",
+      "title": "Use Renewable Energy",
+      "description": "Switch to solar panels or green energy plans to power your home sustainably."
+    },
+    {
+      "icon": "🍃",
+      "title": "Plant Trees",
+      "description": "Planting trees helps absorb carbon dioxide and improve air quality."
+    },
+    {
+      "icon": "🛍️",
+      "title": "Say No to Plastic",
+      "description": "Use reusable bags, bottles, and containers instead of single-use plastics."
+    },
+    {
+      "icon": "♻️",
+      "title": "Recycle Properly",
+      "description": "Sort your waste and ensure recyclables are cleaned and properly disposed of."
+    },
+    {
+      "icon": "🌞",
+      "title": "Switch Off Lights",
+      "description": "Turn off lights and electronics when not in use to save energy."
+    },
+    {
+      "icon": "🥗",
+      "title": "Eat Sustainably",
+      "description": "Choose locally sourced and seasonal food to lower environmental impact."
+    }
+  ]
+}

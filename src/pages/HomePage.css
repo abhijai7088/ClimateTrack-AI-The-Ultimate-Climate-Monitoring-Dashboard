@@ -1,0 +1,234 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.hero-section {
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 0px 0;
+}
+
+/* Body Styling */
+body {
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  width: 100%;
+}
+
+/* Home Page Styling */
+.home-page {
+  font-family: Arial, sans-serif;
+  color: #2e3b4e;
+  margin: 0px;
+  padding: 5px;
+  background-color: #b0e9e9;
+  width: 1530px;
+  
+ 
+}
+
+/* Intro Section */
+.intro {
+  position: relative;
+  background-image: url('https://www.icmif.org/wp-content/uploads/2023/11/Sus-cover-2023.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 360px;
+  
+  color: #eceeef;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+.intro-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #b0e9e9;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #e6eff4;
+}
+
+/* Section Styling */
+.section {
+  padding: 0px 20px;
+  margin: 20px auto;
+  max-width: 1400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+}
+
+.subsection {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.subsection h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.subsection p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Carbon Footprint and Sustainability Goals Section */
+.features-section .carbon-sustainability {
+  padding: 50px 20px;
+  margin: 20px auto;
+  max-width: 1400px;
+  background: #e9f7ef;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.features-section .carbon-sustainability .carbon-footprint,
+.features-section .carbon-sustainability .sustainability-goals {
+  flex: 1;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.features-section .carbon-sustainability .sustainability-goals {
+  background: #f3f9ff;
+}
+
+/* Quiz and Trends Section */
+.quiz-trends-section {
+  padding: 50px 20px;
+  margin: 20px auto;
+  max-width: 1400px;
+  background: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.quiz-trends-section .quiz,
+.quiz-trends-section .carbon-trends {
+  flex: 1;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sustainability Tips and Carbon Offset Section */
+.sustainability-tips-offset-section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 1400px;
+  background: #e8f5e9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.sustainability-tips-offset-section .tips,
+.sustainability-tips-offset-section .offset {
+  flex: 1;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sustainability-tips-offset-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #388e3c;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 20px;
+  }
+
+  .subsection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-section .carbon-sustainability,
+  .quiz-trends-section,
+  .sustainability-tips-offset-section {
+    flex-direction: column;
+  }
+
+  .features-section .carbon-sustainability .carbon-footprint,
+  .features-section .carbon-sustainability .sustainability-goals,
+  .quiz-trends-section .quiz,
+  .quiz-trends-section .carbon-trends,
+  .sustainability-tips-offset-section .tips,
+  .sustainability-tips-offset-section .offset {
+    flex: 1;
+    text-align: center;
+  }
+}

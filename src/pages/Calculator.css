@@ -1,0 +1,113 @@
+/* Calculator container */
+.calculator {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #d3c464, #9ee57d);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px #9ee57d(255, 255, 255, 0.8);
+  font-family: "Roboto", sans-serif;
+  transition: transform 0.2s ease-in-out;
+}
+h2,h4{
+  color:#333
+}
+
+.calculator:hover {
+  transform: scale(1.02);
+}
+
+/* Display */
+.calculator-display {
+  width: 1100px;
+  height: 60px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #333;
+  color: #ca7c7c;
+  font-size: 2rem;
+  text-align: right;
+  padding: 10px;
+  box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.1), inset 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons container */
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.graph {
+  max-width: 1100px;
+}
+
+/* Buttons */
+.button {
+  padding: 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: linear-gradient(145deg, #d6adad, #b78686);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15), -3px -3px 8px rgba(255, 255, 255, 0.8);
+  transition: all 0.2s ease-in-out;
+}
+
+.button:active {
+  box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.1), inset 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(0.95);
+}
+
+.button.operation {
+  background: linear-gradient(145deg, #ffcc00, #6dd8ee);
+  color: #333;
+  font-weight: bold;
+}
+
+.button.equal {
+  background: linear-gradient(145deg, #4caf50, #66bb6a);
+  color: #a6ed76;
+  font-weight: bold;
+}
+
+.button.clear {
+  background: linear-gradient(145deg, #f44336, #e57373);
+  color: white;
+  font-weight: bold;
+}
+
+/* Button animations */
+@keyframes button-pop {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.button:focus {
+  animation: button-pop 0.2s ease-in-out;
+}
+
+/* Calculator animations */
+@keyframes slide-in {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.calculator {
+  animation: slide-in 0.5s ease-out;
+}

@@ -1,0 +1,105 @@
+/* General Styling */
+.dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #b0e9e9;
+}
+.navbar {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2e3b4e;
+}
+p {
+  color:black
+}
+h3 {
+  color:rgb(7, 9, 9)
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100px;
+  display: flex;
+  margin-right: 10px;
+}
+
+.search-container button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: rgb(232, 228, 228);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Weather and AQI Section */
+.weather-and-aqi {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.weather-info, .aqi-info {
+  flex: 1;
+  padding: 20px;
+  margin: 0 10px;
+  background: rgb(219, 221, 218);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aqi-info {
+  flex: 0.4;
+}
+
+/* Forecast and Future Weather Section */
+.forecast-and-future {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.forecast-info, .future-info {
+  flex: 1;
+  padding: 20px;
+  margin: 0 10px;
+  background: rgb(219, 221, 218);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.future-info {
+  flex: 0.4;
+}
+
+/* Marine Info Section */
+.marine-info {
+  padding: 20px;
+  background: rgb(219, 221, 218);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Climate Events Section */
+.climate-events-section {
+  padding: 20px;
+  background: rgb(219, 221, 218);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
